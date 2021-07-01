@@ -12,7 +12,7 @@
 * {
     margin: 0;
     padding: 0;
-    font: 20px bold;
+    font: 18px bold;
 }
 
 body {
@@ -52,6 +52,7 @@ header {
 
 .container {
     background-color: #f0f3f4;
+    border-radius: 5px;
     width: 1000px;
     height: 820px;
     margin: 20px auto 0;
@@ -65,11 +66,11 @@ header {
 
 #regbutton, #signinbtn, #exitbtn {
     border: 1px solid;
-    padding: 8px 40px;
+    padding: 8px 30px;
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
     background-color: #337AB7;
-    border-radius: 2px;
+    border-radius: 10px;
     font-size: 20px;
     color: #fff;
     transition: all 0.8s;
